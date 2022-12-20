@@ -2,7 +2,7 @@ import numpy as np
 
 class LinearRegression1D:
     def __init__(self):
-        self.params = np.array([0.1, 0.4])
+        self.params = np.random.rand(2,)
     
     def predict(self, X):
         a = np.ones(X.shape)
